@@ -1,7 +1,7 @@
 {
   "name": "lampctl",
   "version": "0.0.1",
-  "description": "Script sto control my daylight lamp.",
+  "description": "control a lamp attached to TP-Link HS100 WiFi plug",
   "main": "lamp-on.js",
   "dependencies": {
     "tplink-smarthome-api": "^0.20.1"
