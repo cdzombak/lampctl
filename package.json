@@ -1,0 +1,17 @@
+{
+  "name": "lampctl",
+  "version": "0.0.1",
+  "description": "Script sto control my daylight lamp.",
+  "main": "lamp-on.js",
+  "dependencies": {
+    "tplink-smarthome-api": "^0.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "on": "node lamp-on.js",
+    "off": "node lamp-off.js",
+    "info": "node lamp-info.js"
+  },
+  "author": "Chris Dzombak",
+  "license": "WTFPL"
+}
